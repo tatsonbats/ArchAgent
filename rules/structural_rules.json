@@ -1,0 +1,47 @@
+[
+  {
+    "id": "SR-01",
+    "description": "Column span without beam support",
+    "check": "max_column_span",
+    "threshold": 8.0,
+    "unit": "m",
+    "severity": "HIGH",
+    "recommendation": "Add a primary beam between columns {a} and {b}, or reduce the span to under 8m."
+  },
+  {
+    "id": "SR-02",
+    "description": "Excessive cantilever length",
+    "check": "max_cantilever",
+    "threshold": 2.5,
+    "unit": "m",
+    "severity": "HIGH",
+    "recommendation": "Cantilevered element exceeds 2.5m. Back-span analysis or counterweight required before construction."
+  },
+  {
+    "id": "SR-03",
+    "description": "Wall opening ratio",
+    "check": "wall_opening_ratio",
+    "threshold": 0.5,
+    "unit": "ratio",
+    "severity": "MEDIUM",
+    "recommendation": "Wall opening exceeds 50% of wall length. Verify shear capacity and consider a lintel beam above the opening."
+  },
+  {
+    "id": "SR-04",
+    "description": "Slab thickness relative to span",
+    "check": "slab_span_ratio",
+    "threshold": 30,
+    "unit": "span/thickness ratio",
+    "severity": "MEDIUM",
+    "recommendation": "Slab thickness appears insufficient. Minimum recommended thickness is span divided by 30."
+  },
+  {
+    "id": "SR-05",
+    "description": "Column pair without beam connection",
+    "check": "unbraced_column_distance",
+    "threshold": 6.0,
+    "unit": "m",
+    "severity": "LOW",
+    "recommendation": "No beam detected between columns more than 6m apart. Verify lateral bracing strategy."
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "C30": {"density_kg_m3": 2400, "compressive_strength_mpa": 30, "fire_rating": "R120"},
+  "C30/37": {"density_kg_m3": 2400, "compressive_strength_mpa": 30, "fire_rating": "R120"},
+  "C35": {"density_kg_m3": 2450, "compressive_strength_mpa": 35, "fire_rating": "R120"},
+  "S355": {"density_kg_m3": 7850, "yield_strength_mpa": 355, "fire_rating": "R30"},
+  "S275": {"density_kg_m3": 7850, "yield_strength_mpa": 275, "fire_rating": "R30"},
+  "C24": {"density_kg_m3": 420, "bending_strength_mpa": 24, "fire_rating": "R60"},
+  "DEFAULT_CONCRETE": {"density_kg_m3": 2300, "compressive_strength_mpa": 25, "fire_rating": "R60", "assumed": true},
+  "DEFAULT_STEEL": {"density_kg_m3": 7850, "yield_strength_mpa": 275, "fire_rating": "R30", "assumed": true}
+}

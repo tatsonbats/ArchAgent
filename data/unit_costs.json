@@ -1,0 +1,29 @@
+{
+  "concrete_C30": {
+    "cost_per_m3": 120,
+    "currency": "USD",
+    "co2_per_m3_kg": 300
+  },
+  "steel_S355": {
+    "cost_per_tonne": 2800,
+    "currency": "USD",
+    "note": "Range $2,500-$3,500/t in 2026",
+    "co2_per_tonne_kg": 1850
+  },
+  "glazing": {
+    "cost_per_m2": 350,
+    "currency": "USD",
+    "co2_per_m2_kg": 25
+  },
+  "timber_C24": {
+    "cost_per_m3": 600,
+    "currency": "USD",
+    "co2_per_m3_kg": -800,
+    "note": "Negative CO2 = carbon sequestration benefit"
+  },
+  "labour_multipliers": {
+    "no_high_flags": 1.0,
+    "one_high_flag": 1.15,
+    "two_or_more_high_flags": 1.25
+  }
+}
