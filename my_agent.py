@@ -18,7 +18,7 @@ async def main():
 
     # Create adapter with LLM and checkpointer
     adapter = LangGraphAdapter(
-        llm=ChatOpenAI(model="gpt-4o"),
+        llm=ChatGoogleGenerativeAI(model="gemini-1.5-pro"),
         checkpointer=InMemorySaver(),
     )
 
